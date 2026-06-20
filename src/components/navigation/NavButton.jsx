@@ -2,7 +2,6 @@ import React from "react";
 import Link from "next/link";
 import {
   Home,
-  Notebook,
   User,
   Palette,
   Phone,
@@ -46,7 +45,7 @@ const getIcon = (icon) => {
 const NavButton = ({ x, y, label, link, icon, newTab }) => {
   return (
     <div
-      className="absolute z-50 pointer-events-auto"
+      className="absolute z-50 cursor-pointer"
       style={{
         left: "50%",
         top: "50%",
@@ -56,10 +55,14 @@ const NavButton = ({ x, y, label, link, icon, newTab }) => {
       <Link
         href={link}
         target={newTab ? "_blank" : "_self"}
-        className="text-foreground rounded-full flex items-center justify-center w-14 h-14 p-4"
+        className="pointer-events-auto group text-foreground rounded-full flex items-center justify-center
+        bg-background/20 border border-accent/30 border-solid backdrop-blur-[6px]
+        shadow-glass-inset hover:shadow-glass-sm transition-shadow duration-300"
         aria-label={label}
       >
-        {getIcon(icon)}
+        <span className="relative w-14 h-14 p-4 animate-spin-slow-reverse group-hover:pause group-hover:text-accent">
+          {getIcon(icon)}
+        </span>
       </Link>
     </div>
   );
