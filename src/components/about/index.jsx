@@ -12,7 +12,7 @@ const AboutDetails = () => {
           }
         >
           <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
-            Architect of Enchantment
+            Software Engineer
           </h2>
           <p className="font-light  text-xs sm:text-sm md:text-base   ">
             I am a software engineer with a Bachelor’s degree in Computer
@@ -34,17 +34,18 @@ const AboutDetails = () => {
         <ItemLayout
           className={" col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
-          <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            12+ <sub className="font-semibold text-base">clients</sub>
+          <p className="flex items-center gap-4 font-semibold w-full text-left text-2xl sm:text-5xl">
+            12+
+            <span className="font-semibold text-base">clients</span>
           </p>
         </ItemLayout>
 
         <ItemLayout
           className={"col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
-          <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            5+{" "}
-            <sub className="font-semibold text-base">years of experience</sub>
+          <p className="flex items-center gap-4 font-semibold w-full text-left text-2xl sm:text-5xl">
+            5+
+            <span className="font-semibold text-base">years of experience</span>
           </p>
         </ItemLayout>
 
@@ -53,8 +54,8 @@ const AboutDetails = () => {
         >
           <img
             className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/top-langs?username=codebucks27&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
-            alt="CodeBucks"
+            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/top-langs?username=JeromeChallet&theme=transparent&hide_border=true&title_color=FFFFFF&text_color=FFFFFF&icon_color=FFFFFF&text_bold=false`}
+            alt="jerome challet"
             loading="lazy"
           />
         </ItemLayout>
@@ -62,8 +63,8 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
           <img
             className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api?username=codebucks27&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
-            alt="CodeBucks"
+            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api?username=JeromeChallet&theme=transparent&hide_border=true&title_color=FFFFFF&text_color=FFFFFF&icon_color=FFFFFF&text_bold=false`}
+            alt="jerome challet"
             loading="lazy"
           />
         </ItemLayout>
@@ -71,8 +72,8 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full"}>
           <img
             className="w-full h-auto"
-            src={`https://skillicons.dev/icons?i=appwrite,aws,babel,bootstrap,cloudflare,css,d3,docker,figma,firebase,gatsby,git,github,graphql,html,ipfs,js,jquery,kubernetes,linux,mongodb,mysql,netlify,nextjs,nodejs,npm,postgres,react,redux,replit,sass,supabase,tailwind,threejs,vercel,vite,vscode,yarn`}
-            alt="CodeBucks"
+            src="https://skillicons.dev/icons?i=html,css,js,ts,react,redux,bootstrap,sass,vue,vite,nodejs,vue,postman,vitest,cs,cpp,aws,firebase,git,github,windows,unity,jest,ps,wordpress,azure,blender,storybook"
+            alt="jerome challet"
             loading="lazy"
           />
         </ItemLayout>
@@ -80,22 +81,22 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
           <img
             className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL}?user=codebucks27&theme=dark&hide_border=true&type=svg&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B`}
-            alt="CodeBucks"
+            src={`${process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL}?user=JeromeChallet&theme=dark&hide_border=true&type=svg&background=EB545400&ring=FFFFFF&currStreakLabel=FFFFFF`}
+            alt="jerome challet"
             loading="lazy"
           />
         </ItemLayout>
 
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
           <Link
-            href="https://github.com/codebucks27/Nextjs-contentlayer-blog"
+            href="https://github.com/JeromeChallet"
             target="_blank"
             className="w-full"
           >
             <img
               className="w-full h-auto"
-              src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/pin/?username=codebucks27&repo=Nextjs-contentlayer-blog&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
-              alt="CodeBucks"
+              src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/pin/?username=JeromeChallet&repo=three-js-portfolio-mark-1&theme=transparent&hide_border=true&title_color=FFFFFF&text_color=FFFFFF&icon_color=FFFFFF&text_bold=false&description_lines_count=2`}
+              alt="jerome challet"
               loading="lazy"
             />
           </Link>
