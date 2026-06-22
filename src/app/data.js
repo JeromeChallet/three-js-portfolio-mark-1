@@ -96,28 +96,26 @@ export const BtnList = [
   { label: "Contact", link: "/contact", icon: "contact", newTab: false },
   {
     label: "Github",
-    link: "https://www.github.com/codebucks27",
+    link: "https://github.com/JeromeChallet",
     icon: "github",
     newTab: true,
   },
   {
     label: "LinkedIn",
-    link: "https://www.linkedin.com/in/codebucks",
+    link: "https://www.linkedin.com/in/jerome-challet-03b06b34/",
     icon: "linkedin",
     newTab: true,
   },
   {
     label: "X",
-    link: "https://www.x.com/code_bucks",
+    link: "",
     icon: "twitter",
     newTab: true,
   },
   {
     label: "Resume",
-    link: "/resume.pdf",
+    link: "https://docs.google.com/document/d/1IxpBKkLaIbqouJMf40C4Xw1ro1SrpbOdp8Nj50v48dY/edit?tab=t.0",
     icon: "resume",
     newTab: true,
   },
 ];
-
-
