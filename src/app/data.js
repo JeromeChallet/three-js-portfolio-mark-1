@@ -84,13 +84,7 @@ export const projectsData = [
     date: "2022-09-01",
     demoLink: "https://jerome-react-classy-weather.netlify.app//",
   },
-  {
-    id: 21,
-    name: "React Weather App",
-    description: "React/Redux App for weather forecast",
-    date: "2022-09-01",
-    demoLink: "https://jerome-react-classy-weather.netlify.app//",
-  },
+
   {
     id: 20,
     name: "React Bill Splitter",
@@ -105,14 +99,6 @@ export const projectsData = [
       "Javascript Application to create my own version of Google Map",
     date: "2022-09-01",
     demoLink: "/projects/09-Mapty-Geolocation-External-Libraries/index.html",
-  },
-  {
-    id: 18,
-    name: "The Kojima Code",
-    description:
-      "Unity video game built from scratch with C# and custom pixel art",
-    date: "2022-01-01",
-    demoLink: "https://simmer.io/@jrme421/the-kojima-code",
   },
   {
     id: 17,
@@ -151,7 +137,6 @@ export const projectsData = [
     date: "2022-01-01",
     demoLink: "/projects/07-Project-1-Guess-My-Number/index.html",
   },
-
   {
     id: 12,
     name: "Omnifood",
