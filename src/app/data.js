@@ -19,73 +19,152 @@ Websites:
 export const projectsData = [
   {
     id: 1,
-    name: "EcoTracker",
-    description: "Track your carbon footprint",
-    date: "2022-08-15",
-    demoLink: "https://ecotracker.example.com",
+    name: "Rakuten Fashion",
+    description:
+      "React, Redux, TypeScript modernization of customer-facing fashion pages",
+    date: "2025-08-01",
+    demoLink: "https://brandavenue.rakuten.co.jp/",
   },
   {
     id: 2,
-    name: "ArtGallery Online",
-    description: "Digital art showcase platform",
-    date: "2022-06-20",
-    demoLink: "https://artgalleryonline.example.com",
+    name: "AbbVie Analytics Dashboard",
+    description:
+      "Responsive pharmaceutical dashboard using React, TypeScript, Zustand and Palantir Foundry",
+    date: "2024-10-01",
+    demoLink: "https://www.abbvie.com/",
   },
   {
     id: 3,
-    name: "BudgetPlanner",
-    description: "Plan and track expenses",
-    date: "2022-09-10",
-    demoLink: "https://budgetplanner.example.com",
+    name: "PremiumArts Dashboard",
+    description:
+      "React and Redux dashboard with real-time data visualization and reporting",
+    date: "2023-12-01",
+    demoLink: "https://www.premiumartsinc.com/",
   },
   {
     id: 4,
-    name: "HealthBeat",
-    description: "Monitor heart rate zones",
-    date: "2022-05-30",
-    demoLink: "https://healthbeat.example.com",
+    name: "Skidata MERN Application",
+    description:
+      "Full-stack React, MongoDB, Express and Node.js software solution",
+    date: "2023-05-01",
+    demoLink: "https://www.skidata.com/",
   },
   {
     id: 5,
-    name: "RecipeFinder",
-    description: "Discover new recipes",
-    date: "2022-07-12",
-    demoLink: "https://recipefinder.example.com",
+    name: "Aoki Metaverse School",
+    description:
+      "Vue.js front-end, testing and documentation for a virtual school platform",
+    date: "2022-09-01",
+    demoLink: "https://www.aoki-style.com/",
   },
   {
     id: 6,
-    name: "JourneyLogger",
-    description: "Log your travels",
-    date: "2022-10-01",
-    demoLink: "https://journeylogger.example.com",
+    name: "Ocean School Database",
+    description:
+      "JAMstack school database with APIs, serverless functions and project management",
+    date: "2021-03-01",
+    demoLink: "#",
   },
   {
     id: 7,
-    name: "StudyBuddy",
-    description: "Collaborative learning platform",
-    date: "2022-04-18",
-    demoLink: "https://studybuddy.example.com",
+    name: "World Company",
+    description:
+      "Mobile game about sustainable development built with GameMaker",
+    date: "2017-03-01",
+    demoLink: "#",
   },
   {
     id: 8,
-    name: "TechTalk",
-    description: "Tech news aggregator",
-    date: "2022-11-05",
-    demoLink: "https://techtalk.example.com",
+    name: "Phenotype",
+    description:
+      "iOS game project involving Swift, Scrum, UI/UX, art, animation and sound",
+    date: "2012-08-01",
+    demoLink: "#",
   },
   {
     id: 9,
-    name: "FitTrack",
-    description: "Fitness and workout tracker",
-    date: "2022-03-22",
-    demoLink: "https://fittrack.example.com",
+    name: "The Kojima Code",
+    description:
+      "Unity video game built from scratch with C# and custom pixel art",
+    date: "2022-01-01",
+    demoLink: "https://simmer.io/@jrme421/the-kojima-code",
   },
   {
     id: 10,
-    name: "MindfulMoments",
-    description: "Meditation and mindfulness app",
-    date: "2022-02-14",
-    demoLink: "https://mindfulmoments.example.com",
+    name: "WPF/MSSQL Reservation App",
+    description:
+      "Desktop app for customer reservations, ticketing and equipment rentals",
+    date: "2021-01-01",
+    demoLink: "#",
+  },
+  {
+    id: 11,
+    name: "Golds Gym Exercise App",
+    description:
+      "Workout planner using exercise APIs and YouTube search integration",
+    date: "2022-01-01",
+    demoLink: "https://famous-treacle-4cb914.netlify.app/",
+  },
+  {
+    id: 12,
+    name: "Samsung Shopping Site",
+    description:
+      "PHP and MySQL e-commerce demo with basket and order functionality",
+    date: "2022-01-01",
+    demoLink: "https://github.com/jrme421/Samsung-shopping-site-PHP-Mysql",
+  },
+  {
+    id: 13,
+    name: "Video Game Database",
+    description:
+      "Firebase and Vue 3 CRUD app for tracking played and unplayed games",
+    date: "2022-01-01",
+    demoLink: "https://dapper-figolla-7dd3c5.netlify.app/",
+  },
+  {
+    id: 14,
+    name: "Rails Friends",
+    description: "Ruby on Rails CRUD app with login and Bootstrap front-end",
+    date: "2022-01-01",
+    demoLink: "https://github.com/jrme421/railsfriends",
+  },
+  {
+    id: 15,
+    name: "School Up",
+    description: "Firebase, Vue and Vuetify school database demo",
+    date: "2022-01-01",
+    demoLink: "https://schoolup-211e2.web.app/",
+  },
+  {
+    id: 16,
+    name: "Omnifood",
+    description:
+      "Responsive HTML, CSS and JavaScript website with Netlify form handling",
+    date: "2022-01-01",
+    demoLink: "https://omnifood-jeromechallet.netlify.app/",
+  },
+  {
+    id: 17,
+    name: "Trillo",
+    description:
+      "Responsive hotel booking layout built with SASS, Flexbox and media queries",
+    date: "2022-01-01",
+    demoLink: "https://fluffy-halva-cfcc98.netlify.app/",
+  },
+  {
+    id: 18,
+    name: "Nexter",
+    description:
+      "Responsive property agency website built with CSS Grid and SASS",
+    date: "2022-01-01",
+    demoLink: "https://spontaneous-panda-159c7d.netlify.app/",
+  },
+  {
+    id: 19,
+    name: "Natours",
+    description: "Advanced responsive CSS/SASS landing page with animations",
+    date: "2022-01-01",
+    demoLink: "https://spontaneous-eclair-7cf479.netlify.app/",
   },
 ];
 
